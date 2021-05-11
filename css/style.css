@@ -28,23 +28,32 @@ body {
 
 #section2 {
     padding: 5% 5% 5% 13.5%;
-    color: #FE231E;
-    background-image: url(../img/manga-anime-mix-up-hd-wallpaper-preview.jpg);
+    color: black;
     position: relative;
-    z-index: 2;
 }
 
 #section2 img {
     position: absolute;
-    opacity: 0.2;
+}
+
+.background {
+    background-image: url(../img/manga-anime-mix-up-hd-wallpaper-preview.jpg);
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
 }
 
 #section2 td {
-    background-color: whitesmoke;
+    background-color: #FE231E;
     width: 36vw;
     padding: 4px;
     border-style: solid;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.521);
 }
 
 #footer {
