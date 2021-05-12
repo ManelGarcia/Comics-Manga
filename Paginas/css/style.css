@@ -277,3 +277,21 @@ button:hover {
 .active {
     background-color: rgb(22, 22, 22);
 }
+
+@media only screen and (max-width: 700px) {
+    .column-1 {
+        width: 100%;
+    }
+    .column2 {
+        width: 100%;
+    }
+    .column-4 {
+        width: 50%;
+    }
+    #section1 {
+        display: grid;
+        text-align: end;
+    }
+    #footer {}
+    .flex {}
+}
